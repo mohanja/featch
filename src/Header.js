@@ -22,10 +22,10 @@ const Header=()=>{
                 <li><Link to="/item">ColorItem</Link></li>
              
             </ul>
-    <div class="menu" onClick={()=>setShow(!show)}>
-        <div class="menu-icon"></div>
-        <div class="menu-icon"></div>
-        <div class="menu-icon"></div>
+    <div className="menu" onClick={()=>setShow(!show)}>
+        <div className="menu-icon"></div>
+        <div className="menu-icon"></div>
+        <div className="menu-icon"></div>
     </div>   
         </nav>
         <Routes>
